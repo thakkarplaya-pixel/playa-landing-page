@@ -8,50 +8,85 @@
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="brand">
-      <img src="Playa Logo.PNG" alt="Playa Logo" />
+      <img src="Playa Logo.PNG" alt="Playa Logo">
       <span>PLAYA</span>
     </div>
 
     <div class="nav-links">
-      <a href="#how-it-works">How It Works</a>
+      <a href="#how">How It Works</a>
       <a href="#features">Features</a>
       <a href="https://www.instagram.com/playa_sportsapp/" target="_blank">Instagram</a>
-      <a href="#waitlist" class="nav-cta">Join the Waitlist</a>
+      <a href="#waitlist" class="nav-button">Join the Waitlist</a>
     </div>
   </nav>
 
   <header class="hero">
-    <div class="hero-content">
-      <div class="coming-soon">● COMING SOON</div>
+    <div class="hero-text">
+      <div class="badge">● COMING SOON</div>
 
       <h1>PLAYA</h1>
       <h2>Where Every Point Counts</h2>
 
       <p>
         The social competition platform for every game you play.
-        Compete with friends, track results, climb leaderboards,
-        and turn every rivalry into something meaningful.
       </p>
 
-      <a href="#waitlist" class="cta-button">Join the Waitlist →</a>
+      <a href="#waitlist" class="main-button">Join the Waitlist →</a>
     </div>
 
-    <div class="hero-card">
-      <div class="phone-card">
-        <h3>Leaderboard</h3>
-        <div class="row active"><span>1. You</span><strong>1,850</strong></div>
-        <div class="row"><span>2. Alex</span><strong>1,620</strong></div>
-        <div class="row"><span>3. Jordan</span><strong>1,450</strong></div>
-        <div class="stats">
-          <div><strong>23</strong><span>Wins</span></div>
-          <div><strong>87</strong><span>Matches</span></div>
-          <div><strong>1,850</strong><span>Points</span></div>
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-top">Leaderboard <span>＋</span></div>
+
+        <div class="tabs">
+          <span class="active-tab">Global</span>
+          <span>Friends</span>
+          <span>Groups</span>
+        </div>
+
+        <div class="rank"><span>1 Alex</span><strong>2,350</strong></div>
+        <div class="rank"><span>2 Jordan</span><strong>2,100</strong></div>
+        <div class="rank active"><span>3 You</span><strong>1,850</strong></div>
+        <div class="rank"><span>4 Taylor</span><strong>1,620</strong></div>
+        <div class="rank"><span>5 Casey</span><strong>1,450</strong></div>
+
+        <div class="phone-stats">
+          <div><strong>23</strong><small>Wins</small></div>
+          <div><strong>87</strong><small>Matches</small></div>
+          <div><strong>1,850</strong><small>Points</small></div>
         </div>
       </div>
     </div>
   </header>
+
+  <section id="how" class="steps">
+    <div class="step">
+      <div class="icon">🎮</div>
+      <h3>PLAY</h3>
+      <p>Compete with friends in any game or sport.</p>
+    </div>
+
+    <div class="step">
+      <div class="icon">📊</div>
+      <h3>RECORD</h3>
+      <p>Submit results and track every match.</p>
+    </div>
+
+    <div class="step">
+      <div class="icon">🏆</div>
+      <h3>CLIMB</h3>
+      <p>Earn points and move up the leaderboard.</p>
+    </div>
+
+    <div class="step">
+      <div class="icon">💬</div>
+      <h3>SHARE</h3>
+      <p>Share victories, build rivalries, and connect.</p>
+    </div>
+  </section>
 
   <section class="problem">
     <h2>Most games are forgotten when they end.</h2>
@@ -61,76 +96,78 @@
     <h3>Playa makes every result count.</h3>
   </section>
 
-  <section id="how-it-works">
-    <h2 class="section-title">How It Works</h2>
-
-    <div class="steps">
-      <div class="card">
-        <div class="icon">🎮</div>
-        <h3>Play</h3>
-        <p>Compete with friends in any sport, game, or challenge.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon">📊</div>
-        <h3>Record</h3>
-        <p>Submit your results and track every match.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon">🏆</div>
-        <h3>Climb</h3>
-        <p>Earn points and move up the leaderboard.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon">💬</div>
-        <h3>Share</h3>
-        <p>Post victories, build rivalries, and connect.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="features">
-    <h2 class="section-title">Features</h2>
+  <section id="features" class="features-section">
+    <h2>FEATURES</h2>
 
     <div class="features-grid">
-      <div class="card"><h3>🏆 Leaderboards</h3><p>Track your position and compete for the top spot.</p></div>
-      <div class="card"><h3>👥 Competition Groups</h3><p>Create private groups with friends and communities.</p></div>
-      <div class="card"><h3>📊 Match Tracking</h3><p>Record results across multiple activities.</p></div>
-      <div class="card"><h3>💬 Social Feed</h3><p>Share wins, react to results, and stay connected.</p></div>
-      <div class="card"><h3>📈 Personal Stats</h3><p>Track your progress over time.</p></div>
-      <div class="card"><h3>🌎 Discover Competitors</h3><p>Connect with players beyond your friend group.</p></div>
+      <div class="feature-card">
+        <h3>🏆 Leaderboards</h3>
+        <p>Track your position and compete for the top spot.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>👥 Competition Groups</h3>
+        <p>Create private groups with friends and communities.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📈 Match Tracking</h3>
+        <p>Record results across multiple activities.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>💬 Social Feed</h3>
+        <p>Share wins, react to results, and stay connected.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📊 Personal Stats</h3>
+        <p>Track your progress over time.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>🌎 Discover Competitors</h3>
+        <p>Connect with players beyond your friend group.</p>
+      </div>
     </div>
   </section>
 
   <section id="waitlist" class="waitlist">
     <div>
-      <h2>Become a Founding Competitor</h2>
+      <h2>BECOME A FOUNDING COMPETITOR</h2>
       <p>
         Request early access and help shape Playa before launch.
-        We’ll send you a short form so you can tell us what you play.
+        We’ll send you a short form to get to know you and what games you play.
       </p>
     </div>
 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhAdiI_SBLKm8Bgq9N7DLhm-Ta12bbOufPoOFNfGLZ2sUmfQ/viewform" target="_blank" class="cta-button">
-      Request Early Access →
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhAdiI_SBLKm8Bgq9N7DLhm-Ta12bbOufPoOFNfGLZ2sUmfQ/viewform" target="_blank" class="main-button">
+      Join the Waitlist →
     </a>
   </section>
 
-  <section class="instagram">
+  <section class="instagram-section">
     <a href="https://www.instagram.com/playa_sportsapp/" target="_blank" class="instagram-card">
-      <div class="instagram-icon">◎</div>
+      <div class="ig-logo">◎</div>
+
       <div>
         <h2>Follow Playa on Instagram</h2>
         <p>@playa_sportsapp</p>
       </div>
-      <span>→</span>
+
+      <span class="arrow">→</span>
+
+      <p class="ig-copy">
+        Stay updated. See behind the scenes.<br>
+        Be part of the journey.
+      </p>
     </a>
   </section>
 
   <footer>
     <p>PLAYA — Where Every Point Counts</p>
   </footer>
+
 </body>
 </html>
+
