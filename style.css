@@ -200,3 +200,60 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
     margin:auto;
   }
 }
+/* Make Instagram link look like a real button on desktop + mobile */
+.instagram-button{
+  background:#bfff00 !important;
+  color:#000 !important;
+  text-decoration:none !important;
+  padding:14px 28px;
+  border-radius:999px;
+  font-weight:900;
+  display:inline-block;
+  width:max-content;
+  box-shadow:0 0 25px rgba(191,255,0,.35);
+}
+
+.instagram-button:visited{
+  color:#000 !important;
+}
+
+@media(min-width:769px){
+  .instagram-button{
+    justify-self:end;
+  }
+}
+
+/* Fix the bottom stats being cut off inside the phone */
+@media(max-width:768px){
+  .iphone{
+    width:280px;
+    height:540px;
+  }
+
+  .iphone-screen{
+    padding:24px 20px 36px;
+  }
+
+  .leader-row{
+    padding:7px 8px;
+    margin-bottom:3px;
+  }
+
+  .player-info img{
+    width:32px;
+    height:32px;
+  }
+
+  .phone-stats{
+    margin-top:12px;
+    padding:0 14px;
+  }
+
+  .phone-stats strong{
+    font-size:.95rem;
+  }
+
+  .phone-stats small{
+    font-size:.68rem;
+  }
+}
