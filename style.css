@@ -267,15 +267,11 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
   display:none;
 }
 
-/* Desktop section jump position */
-#how,
-#waitlist,
-#socials{
-  scroll-margin-top:220px;
-}
-
-h2#features{
-  scroll-margin-top:260px !important;
+/* Desktop navbar offset */
+@media(min-width:769px){
+  html{
+    scroll-padding-top:140px;
+  }
 }
 
 /* Mobile section jump position */
