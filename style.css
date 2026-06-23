@@ -274,10 +274,7 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
 
 /* Mobile jump positions */
 @media(max-width:768px){
-  #how,
-  #features,
-  #waitlist,
-  #socials{
-    scroll-margin-top:20px;
+  html{
+    scroll-padding-top:0px;
   }
 }
