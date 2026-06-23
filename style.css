@@ -269,10 +269,13 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
 
 /* Desktop section jump position */
 #how,
-#features,
 #waitlist,
 #socials{
   scroll-margin-top:220px;
+}
+
+h2#features{
+  scroll-margin-top:260px !important;
 }
 
 /* Mobile section jump position */
@@ -291,9 +294,4 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
     scroll-margin-top:260px;
   }
 
-}
-@media(min-width:769px){
-  h2#features{
-    scroll-margin-top:180px !important;
-  }
 }
