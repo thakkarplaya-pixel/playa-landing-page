@@ -157,3 +157,46 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
     }
 }
 }
+.instagram-button{
+  background:#bfff00;
+  color:#000 !important;
+  text-decoration:none;
+  padding:14px 28px;
+  border-radius:999px;
+  font-weight:900;
+  display:inline-block;
+  width:max-content;
+  box-shadow:0 0 25px rgba(191,255,0,.3);
+  transition:.25s ease;
+}
+
+.instagram-button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 40px rgba(191,255,0,.5);
+}
+
+@media(min-width:769px){
+  .instagram-card{
+    grid-template-columns:auto 1fr 1fr auto;
+  }
+
+  .instagram-button{
+    order:4;
+    justify-self:end;
+  }
+
+  .ig-copy{
+    order:3;
+  }
+}
+
+@media(max-width:768px){
+  .instagram-card{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .instagram-button{
+    margin:auto;
+  }
+}
