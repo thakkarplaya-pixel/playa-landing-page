@@ -271,3 +271,14 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
     scroll-margin-top: 350px;
   }
 }
+.anchor-spacer{
+    position:relative;
+    top:-140px;
+    visibility:hidden;
+}
+
+@media(max-width:768px){
+    .anchor-spacer{
+        top:-280px;
+    }
+}
