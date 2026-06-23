@@ -272,13 +272,27 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
   }
 }
 .anchor-spacer{
-    position:relative;
-    top:-140px;
-    visibility:hidden;
+  position:relative;
+  top:-120px;
+  visibility:hidden;
+}
+
+#features-anchor{
+  top:-95px;
 }
 
 @media(max-width:768px){
-    .anchor-spacer{
-        top:-280px;
-    }
+
+  #how-anchor,
+  #features-anchor{
+    top:-190px;
+  }
+
+  #waitlist-anchor{
+    top:-220px;
+  }
+
+  #socials-anchor{
+    top:-280px;
+  }
 }
