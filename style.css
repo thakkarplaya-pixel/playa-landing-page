@@ -263,14 +263,6 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
   scroll-margin-top: 120px;
 }
 
-@media (max-width: 768px) {
-  #how,
-  #features,
-  #socials,
-  #waitlist {
-    scroll-margin-top: 350px;
-  }
-}
 .anchor-spacer{
   display:none;
 }
@@ -280,11 +272,12 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
 #features,
 #waitlist,
 #socials{
-  scroll-margin-top:150px;
+  scroll-margin-top:220px;
 }
 
 /* Mobile section jump position */
 @media(max-width:768px){
+
   #how,
   #features{
     scroll-margin-top:170px;
@@ -297,4 +290,5 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
   #socials{
     scroll-margin-top:260px;
   }
+
 }
