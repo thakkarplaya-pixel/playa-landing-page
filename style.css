@@ -257,3 +257,9 @@ footer{padding:38px 6%;border-top:1px solid #171717;text-align:center;color:#777
     font-size:.68rem;
   }
 }
+#how,
+#features,
+#socials,
+#waitlist {
+  scroll-margin-top: 120px;
+}
